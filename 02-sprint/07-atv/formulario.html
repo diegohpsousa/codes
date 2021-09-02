@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atv-07</title>
+</head>
+<body>      
+    <header>
+        <nav>
+            <a href="index.html">Café Starbuzz</a>
+            <a href="jornal.html">Jornal Online</a>
+            <a href="#formulario">Formulario</a>
+        </nav>
+    </header>
+    <!-- 
+        Nome
+        idade
+        profissão
+        pais
+        interesses
+        como descobriu
+     -->
+     <main>
+         <h1 id="formulario">Conhecendo você</h1>
+         <h3>Conte-nos um pouco mais sobre você.</h3>
+
+         <form action="get">
+             <label for="nome">Nome:</label>
+             <input type="text" placeholder="Nome" required>
+             <br>
+             <br>
+             <label for="idade">Idade:</label>
+             <br>
+             <input type="radio" name="idade" value="18">
+             <label for="18">Mais de 18</label>
+             <br>
+             <input type="radio" name="idade" value="19">
+             <label for="19-35">de 19 a 35 anos.</label>
+             <br>
+             <input type="radio" name="idade" value="36">
+             <label for="36-48">de 36 a 48 anos</label>
+             <br>
+             <input type="radio" name="idade" value="49">
+             <label for="49-acima">49 anos ou mais. </label>
+            <br>
+            <br>
+            <label for="profissao">Profissão:</label>
+            <input type="text" placeholder="Profissão" required>
+            <br><br>
+            <label for="interesses">Interesses:</label>
+            <br>
+            <input type="checkbox" value="café"><label for="checkbox">Café Starbuzz</label>
+            <br>
+            <input type="checkbox" value="receitas"><label for="receitas">Receitas</label>
+            <br>
+            <input type="checkbox" value="noticias"><label for="checkbox">Noticias</label>
+            <br>
+            <input type="checkbox" value="novidades"><label for="checkbox">Novidades</label>
+            <br>
+            <br>
+            <label for="select">Como descobriu a gente?</label>
+            <select name="" id="">
+                <option value="Youtube">Youtube</option>
+                <option value="Google">Google</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Kenzie">Kenzie</option>
+            </select>
+            <br><br>
+
+            <input type="submit">
+
+
+         </form>
+     </main>
+    
+</body>
+</html>

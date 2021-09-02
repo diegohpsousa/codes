@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container.relative {
+    height: 30rem;
+    width: 60%;
+    margin: 1.5rem auto 0; /* isso move o elemento pai, que também movem os filhos*/
+    background-color: Gainsboro;
+    position: relative; /*  a position relative relativa em um pai faz
+    posicionamento absoluto dos filhos dentro dos limites relativos dos pais
+    Agora, porque os filhos são relativos ao pai, se movermos o pai
+    as crianças vão se mover também  */
+  }
+  
+  .exampleOne, .exampleTwo, .exampleTree {
+    min-height: 200px;
+    height: 10rem;  
+    width: 10rem;
+    width: 20%;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 10rem;
+    border: 5px solid Grey;
+  
+  }
+  
+  .exampleOne {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .exampleTwo {
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .exampleTree {
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .header {
+      position: fixed;
+      background-color: #cd000063;
+      padding: 12px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1; /* sobreposição de posicionamento de objetos às vezes pode ocorrer criando 
+                  "camadas" de objetos sobre outros. Ccomo podemos controlar as camadas de elementos? 
+                  fazemos isso com z-index
+                  -1 por baixo, 1 por cima */
+  }

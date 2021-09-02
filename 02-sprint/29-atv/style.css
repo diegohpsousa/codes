@@ -1,0 +1,19 @@
+.imagem-redonda{
+    border-radius: 100%;    
+    width: 500px;
+    height: 500px;
+    filter: grayscale(100%);
+    border: 4px solid gray;
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+figure{
+    align-items: center;
+    
+}
+figcaption{
+    text-align: center;
+}

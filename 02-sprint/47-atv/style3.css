@@ -1,0 +1,16 @@
+table{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+    width: 400px;
+    
+}
+th, td{
+    background-color: rgb(201, 247, 245);
+    border: 1px solid black;
+    padding: 5px;
+    width: 96px;
+}
+th{
+    background-color: lightskyblue;
+}

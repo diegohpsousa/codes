@@ -1,0 +1,39 @@
+.caixa{
+    background-color: #e4e8f0;
+    border: solid 4px #d0d3d9;
+    padding: 5px 10px;
+    
+}
+.titulo{
+    font-family:  arial;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+}
+.lista{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: black;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    
+}
+i[class~="facebook"]{
+    color: #4267B2;
+}
+i[class~="linkedin"]{
+    color: #0e76a8;
+}
+i[class~="github"]{
+    color: #4267B2;
+}
+i[class~="pinterest"]{
+    color: #E60023;
+}
+i[class~="twitter"]{
+    color: #1DA1F2;
+}
+i[class~="youtube"]{
+    color: #FF0000;
+}

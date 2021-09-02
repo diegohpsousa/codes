@@ -1,0 +1,17 @@
+.div1{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    border: 1px dashed white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px 0px gray ;
+}
+
+.div2{
+    width: 350px;
+    background-color: lightblue;
+    padding: 10px;
+    box-shadow: 5px 5px 2px gray;
+    
+}

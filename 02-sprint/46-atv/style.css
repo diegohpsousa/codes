@@ -1,0 +1,26 @@
+body{
+    
+    color: #333;
+}
+section{
+    width: 70vw;
+    background-color: #cacccc;
+    padding: 20px;
+}
+p{
+    font-variant: small-caps;
+    font-style: italic;
+}
+.col{
+    font-family: 'Muli', sans-serif;
+    column-count: 3;
+    column-rule-style: dotted;
+    column-rule-color: gray;
+    column-rule-width: 1.5px;
+    line-height: 1.65;
+    column-gap: 35px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}

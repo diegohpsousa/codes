@@ -1,0 +1,23 @@
+div{
+    width: 65vw;
+    text-align: center;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    width: 50%;
+    display: inline-block;
+}
+.sec1{
+    background-color: lightgray;
+   
+    
+}
+.sec2{
+    background-color: lightgreen;
+    float: left;
+}
+ul{
+    list-style: none;
+}

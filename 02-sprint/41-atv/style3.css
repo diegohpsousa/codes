@@ -1,0 +1,10 @@
+
+/* Definindo a borda azul ao elementos h1 com atributo "example" */
+[title*="example"] {
+    border: 5px solid blue;
+  }
+  
+  
+  img[title]{ 
+    border: 5px solid red;
+  }

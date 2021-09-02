@@ -1,0 +1,50 @@
+/* Exemplo de como importar fonte na folha de estilo */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#f4ddec, #f1f7f3, #c4c4c4, #f2f2f2);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    
+      
+  }
+  
+  .form {
+    background: white;
+    width: 300px;
+    max-width: 400px;
+    margin: 30vh auto auto auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 10px 0;
+  }
+  .form input {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    width: 70%;
+    border: none;
+    margin: 4px;
+    padding: 12px;
+    font-size: 15px;
+  
+  }
+  .form #username {
+    background-color: lightgray;
+  
+  }
+  .form button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    width: 70%;
+    border: none;
+    padding:12px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin: 4px;
+  }
+  
+  
